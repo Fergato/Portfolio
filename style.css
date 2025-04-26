@@ -89,7 +89,7 @@ footer {
   flex-direction: row;
   background-color: #fff;
   border-radius: 60px;
-  box-shadow: 6px 10px 18px rgb(126, 126, 126);
+  box-shadow: 6px 10px 12px rgb(126, 126, 126);
   width: 80%;
   height: 450px;
   text-align: center;
@@ -130,7 +130,7 @@ footer {
   flex-direction: row-reverse;
   background-color: #fff;
   border-radius: 60px;
-  box-shadow: 6px 10px 18px rgb(126, 126, 126);
+  box-shadow: 6px 10px 12px rgb(126, 126, 126);
   width: 80%;
   height: 450px;
   text-align: center;
@@ -184,7 +184,7 @@ footer {
   .card {
     flex-direction: column;
     height: auto;
-    border-radius: 40px;
+    border-radius: 20px;
   }
   .card img {
     width: 95%;
@@ -195,7 +195,7 @@ footer {
   .card_1 {
     flex-direction: column;
     height: auto;
-    border-radius: 40px;
+    border-radius: 20px;
   }
   .card_1 img {
     width: 95%;
@@ -230,5 +230,11 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+  .card_1 {
+    width: 90%;
   }
 }
