@@ -184,18 +184,24 @@ footer {
   .card {
     flex-direction: column;
     height: auto;
+    border-radius: 40px;
   }
   .card img {
     width: 95%;
     height: 400px;
+    object-position: top;
+    padding: 10px;
   }
   .card_1 {
     flex-direction: column;
     height: auto;
+    border-radius: 40px;
   }
   .card_1 img {
     width: 95%;
     height: 400px;
+    object-position: top;
+    padding: 10px;
   }
   #about {
     border-radius: 40px;
